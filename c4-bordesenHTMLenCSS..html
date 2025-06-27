@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BORDES</title>
+  <style>
+ .s1{
+  & .tx1 {
+    border-style: dotted; border-width: 5px; border-color: pink;}
+  & .tx2 {border-style: dashed;}
+  & .tx3 {border-style: solid; border-width: 5px; border-color: pink;}
+  & .tx4 {border-style: double;}
+  & .tx5 {border-style: groove;}
+  & .tx6 { border-style: ridge; border-color: pink;}
+  & .tx7 {border-style: inset;}
+  & .tx8 {border-style: outset;}
+  & .tx9 {border-style: none;}
+  & .tx10 {border-style: hidden;}
+  & .tx11 {border-style: solid dotted none groove;}
+  & .tx12 { border-left: solid 3px pink;}}
+  .s2 {
+    &.bx1{
+      border: solid 2px pink;
+    }
+     &.bx2{
+      border: solid 2px pink;
+     border-radius: 10px;
+    }
+     &.bx3{
+      border: solid 2px pink;
+     border-radius: 0px 10px 10px 0px;
+    }
+  }
+ /* Para dar estilos de manera especifica podemos utilizar los siguientes atributos:
+ - border-top- style
+ - border-bottom-style
+ -border-right-style
+ - border-left-style
+ de igual manera, tambien se puede utilizar de manera mas simplificada
+ -border-top: ;
+ -border-bottom: ;
+ -border-right: ;
+ -border-left: ;*/
+  </style>
+</head>
+<body>
+  <h1> Clase 4 - Bordes en CSS</h1>
+  <section class="s1">
+    <h3 class="tx1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non minus deserunt reprehenderit id architecto, animi laudantium explicabo vitae fugiat hic. Repudiandae accusantium beatae blanditiis labore nostrum id eveniet vel unde.</h3>
+    <h3 class="tx2">Aut exercitationem vero vel? Iusto, maiores ipsum! Obcaecati aliquam sit quis mollitia quaerat repudiandae consectetur ducimus inventore. Nesciunt perspiciatis nulla eos nobis quis. Adipisci ad molestias iure. Excepturi, vero facere!</h3>
+    <h3 class="tx3">Voluptatibus doloribus vel sed esse, architecto tempora earum itaque possimus assumenda molestias alias odio nisi optio iusto laboriosam modi nulla quam cumque deserunt officiis odit et? Obcaecati facere nesciunt deleniti.</h3>
+    <h3 class="tx4" >Magni ullam obcaecati soluta nihil hic exercitationem molestiae sed enim eos, quo alias impedit animi ab est veniam perspiciatis, officia molestias, ipsum repellendus expedita voluptate. Accusamus nobis minus aperiam rem?</h3>
+    <h3 class="tx5">Magni ullam obcaecati soluta nihil hic exercitationem molestiae sed enim eos, quo alias impedit animi ab est veniam perspiciatis, officia molestias, ipsum repellendus expedita voluptate. Accusamus nobis minus aperiam rem?</h3>
+    <h3 class="tx6">Nulla laudantium vel autem sit officia libero quidem ullam repellendus nisi quaerat, rerum corrupti. Et excepturi porro quisquam, sit sint maxime, nesciunt deserunt aperiam tenetur possimus unde delectus veniam omnis!</h3>
+    <h3 class="tx7">Quae enim magnam tempore magni mollitia obcaecati explicabo pariatur, doloribus, ex repellat dolor sapiente architecto. Nam, omnis odio. Atque cupiditate consectetur molestiae consequatur sit in eligendi dignissimos assumenda unde explicabo.</h3>
+    <h3 class="tx8">Exercitationem sunt dolor a. Optio odio dolores numquam in alias aperiam quae sit fugiat! Mollitia nisi porro debitis, soluta veritatis inventore aspernatur obcaecati aliquid suscipit! Quis sit sequi totam pariatur?</h3>
+    <h3 class="tx9">Eligendi deserunt nisi explicabo possimus harum soluta consequatur mollitia vitae, molestias voluptate, officiis corrupti vero magnam libero? Accusantium nobis similique at, ducimus doloremque dignissimos, non repellendus minima vel unde et.</h3>
+    <h3 class="tx10">Eligendi deserunt nisi explicabo possimus harum soluta consequatur mollitia vitae, molestias voluptate, officiis corrupti vero magnam libero? Accusantium nobis similique at, ducimus doloremque dignissimos, non repellendus minima vel unde et.</h3>
+    <h3 class="tx11">Eligendi deserunt nisi explicabo possimus harum soluta consequatur mollitia vitae, molestias voluptate, officiis corrupti vero magnam libero? Accusantium nobis similique at, ducimus doloremque dignissimos, non repellendus minima vel unde et.</h3>
+    </section>
+  <!-- Forma simplificada de añadir bordes-->
+   <h3 class="tx12">Borde simplicado</h3>
+   <section class="s2">
+    <div class="bx1"> Box 1</div>
+    <div class="bx2"> Box 2</div>
+    <div class="bx3"> Box 3</div>
+    <div class="bx4"> Box 4</div>
+   </section>
+   
+
+</body>
+</html>
