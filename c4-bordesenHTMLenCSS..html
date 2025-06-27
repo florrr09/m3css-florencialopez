@@ -18,16 +18,22 @@
   & .tx9 {border-style: none;}
   & .tx10 {border-style: hidden;}
   & .tx11 {border-style: solid dotted none groove;}
-  & .tx12 { border-left: solid 3px pink;}}
+  & .tx12 { border-left: solid 3px pink;}
+}
   .s2 {
-    &.bx1{
+    &.b1{
       border: solid 2px pink;
+      outline: solid 3px  black;
     }
-     &.bx2{
+     &.b2{
       border: solid 2px pink;
      border-radius: 10px;
     }
-     &.bx3{
+     &.b3{
+      border: solid 2px pink;
+     border-radius: 0px 10px 10px 0px;
+    }
+     &.b4{
       border: solid 2px pink;
      border-radius: 0px 10px 10px 0px;
     }
@@ -42,6 +48,15 @@
  -border-bottom: ;
  -border-right: ;
  -border-left: ;*/
+
+
+ /* Al igual que border - style tambien existe un border fuera del margen que se puede estilizar para estilizarlo se utiliza el atributo "outline-style" al igual que border-style, outkine-style lutiliza los mismos valores para mostrar los estilos en el navegador.
+  -outline-style
+  -outline-color
+  -outline-width
+  -outline-offset (Es el padding entre la linea de afuera y el margen)
+  - outline (utiliza los mismos valores)
+  */
   </style>
 </head>
 <body>
@@ -62,10 +77,10 @@
   <!-- Forma simplificada de añadir bordes-->
    <h3 class="tx12">Borde simplicado</h3>
    <section class="s2">
-    <div class="bx1"> Box 1</div>
-    <div class="bx2"> Box 2</div>
-    <div class="bx3"> Box 3</div>
-    <div class="bx4"> Box 4</div>
+    <div class="b1"> Box 1</div>
+    <div class="b2"> Box 2</div>
+    <div class="b3"> Box 3</div>
+    <div class="b4"> Box 4</div>
    </section>
    
 
